@@ -1,0 +1,16 @@
+# student data
+
+sno=int(input('enter sno:'))
+name=input('enter student name:')
+gender=input('enter your gender:')
+group=input('enter group:')
+add=input('enter your address:')
+phno=int(input("enter your contact no:"))
+
+output:
+enter sno: 33
+enter student name: Bhanu chandrika
+enter your gender: Female
+enter group: BCA
+enter your address: Ganapathi Nagar, samalkot.
+enter your contact no: 9505155162
