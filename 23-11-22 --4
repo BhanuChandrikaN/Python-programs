@@ -1,0 +1,14 @@
+# Positive or Negative
+
+num = int(input("Enter a number: "))
+if num > 0:
+   print("Positive number")
+elif num == 0:
+   print("Zero")
+else:
+   print("Negative number")
+
+output:
+Enter a number:56
+Positive number
+
