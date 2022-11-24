@@ -1,0 +1,21 @@
+#Using Relatinal operators
+
+a=int(input("Enter a value:"))
+b=int(input("Enter b value:"))
+print(a>b)
+print(a<b)
+print(a>=b)
+print(a<=b)
+print(a==b)
+print(a!=b)
+
+OUTPUT:
+
+Enter a value:35
+Enter b value:45
+False
+True
+False
+True
+False
+True
