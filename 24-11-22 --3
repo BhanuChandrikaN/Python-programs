@@ -1,0 +1,16 @@
+# Student marks data
+
+s1=int(input("Enter s1 marks:"))
+s2=int(input("Enter s2 marks:"))
+s3=int(input("Enter s3 marks:"))
+if(s1>=35 and s2>=35 and s3>=35):
+    print("Pass")
+else:
+    print("Fail")
+    
+OUTPUT:
+    
+    Enter s1 marks:45
+    Enter s2 marks:35
+    Enter s3 marks:50
+    Pass
