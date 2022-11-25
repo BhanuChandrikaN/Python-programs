@@ -1,0 +1,13 @@
+# Given element is available or not
+
+lst=[ 1, 2, 3, 4, 5,  6]
+i=5
+if i in lst:
+    print("exist")
+else:
+    print("not exist")
+ 
+ OUTPUT:
+ 
+  exist
+  
