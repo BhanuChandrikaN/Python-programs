@@ -1,0 +1,15 @@
+
+# Sum of all even numbers
+
+total=0
+list=[56,57,74,23]
+for i in range(5):
+    if total[i]%2 ==0:
+       total=total+list[i]
+print("sum of elements in list:",total)
+
+OUTPUT:
+
+ sum of elements in list: 56,74
+ 
+ 
