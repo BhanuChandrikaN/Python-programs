@@ -1,0 +1,13 @@
+
+# Minimum element in the list
+
+list=[8,6,10,5]
+min=list[0]
+for i in list:
+    if i<=min:
+        min=i
+print('minimum value=',min)
+
+OUTPUT:
+
+minimum value=5
