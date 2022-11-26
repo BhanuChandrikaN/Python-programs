@@ -1,0 +1,19 @@
+ #bitwise operators
+  
+a=int(input("enter a value:"))
+b=int(input("enter b value:"))
+print(a&b)
+print(a|b)
+print(a^b)
+print(a<<b)
+print(a>>b)
+
+output:
+
+enter a value:4
+enter b value:6
+4
+6
+2
+256
+0
