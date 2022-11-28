@@ -1,0 +1,14 @@
+#pin number 
+
+pin=4659
+if(pin==4659):
+ print('It is valid')
+ print('continue the transactions') 
+else:
+ print('It is not valid')
+ print('Incorrect pin number.Please try again')
+
+output:
+
+It is valid
+continue the transactions
