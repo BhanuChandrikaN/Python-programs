@@ -1,0 +1,29 @@
+# Online Python compiler (interpreter) to run Python online.
+# Write Python 3 code in this onl
+tissue=300
+drink=245
+chips=120
+cream=365
+book=507
+cphn=input("enter customer phonenumber:")
+cname=input("enter customer name:")
+cadd=input("enter customer address:")
+quan=int(input("quantity :"))
+print("enter coupon code in capital letters:")
+bill=(quan*tissue)+(quan*drink)+(quan*chips)+(quan*cream)+(quan*book)
+if bill>=3000:
+ tax=bill*5/100
+elif bill>=2000:
+  tax=bill*7/100
+elif bill>=1000:
+  tax=bill*1/100
+elif bill>=500:
+  tax=bill*15/100
+  
+else:
+  tax=bill*100
+  tax=tax+bill
+  print("customer phno:",cphn)
+  print("customer address:",cadd)
+  print("customer name:",cname)
+  print("bill amount:",bill)
