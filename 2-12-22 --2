@@ -1,0 +1,12 @@
+#vote or not
+
+age=int(input("Enter your age:"))
+if age<18:
+    print("no")
+else:
+    print("yes")
+
+output:
+Enter your age: 18
+yes
+
