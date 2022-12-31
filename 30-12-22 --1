@@ -1,0 +1,9 @@
+n=int(input())
+l=list(map(int,input().split()))
+a=int(input())
+for i in range(a) :
+    last=l[n-1]
+    for j in range (1,n) :
+        l[n-j]=l[n-(j+1)]
+    l[0]=last
+print(l)
